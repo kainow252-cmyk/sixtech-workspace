@@ -1,3 +1,3 @@
-# API SixTech
+# api SixTech
 
 Endpoints e rotas da plataforma.
