@@ -1,30 +1,19 @@
 class SuperAgentOrchestrator:
 
-```
-def __init__(self):
-    self.agents = [
-        "developer",
-        "research",
-        "legal",
-        "designer",
-        "documents"
-    ]
+    def route(self, request: str):
 
-def route(self, request: str):
+        request = request.lower()
 
-    request = request.lower()
+        if "contract" in request:
+            return "legal"
 
-    if "contract" in request:
-        return "legal"
+        if "logo" in request:
+            return "designer"
 
-    if "logo" in request:
-        return "designer"
+        if "api" in request:
+            return "developer"
 
-    if "api" in request:
-        return "developer"
+        if "research" in request:
+            return "research"
 
-    if "research" in request:
-        return "research"
-
-    return "documents"
-```
+        return "documents"
