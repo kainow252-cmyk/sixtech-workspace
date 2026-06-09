@@ -1,4 +1,3 @@
-README.md
 # SixTech Workspace
 
 Plataforma Multiagente baseada em IA.
